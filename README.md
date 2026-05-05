@@ -40,7 +40,7 @@ docker run --rm -v "$(pwd):/data" nicoalon/ml-guided-optimizer:v1.1 -bl /data/bl
 | Option | Values | Description |
 | :--- | :--- | :--- |
 | `-bl`, `--block-file` | `[path]` | Path to your input block file. |
-| `--ml-guided` |  Activates ML-based optimization (overrides manual settings). |
+| `--ml-guided` | | Activates ML-based optimization (overrides manual settings). |
 | `--split-location` | `first`, `middle`, `last` | Where to perform the split (Default: `first`). |
 | `--split-strategy` | `simple-cp`, `simple-sat`, `minimal-cp`, `minimal-sat`, `original` | Optimization strategy (Default: `original`). |
 | `--traversal-strategy` | `seq`, `sdg` | Traversal strategy (Default: `seq`). |
